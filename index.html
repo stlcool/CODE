@@ -1,0 +1,209 @@
+<!doctype html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>stl.cool</title>
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="STL.COOL">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="
+    apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#1B1B1B">
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#1B1B1B">
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
+    <!-- <link rel="stylesheet" href="styles/angular-material.css"/> -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.4/angular-material.min.css">
+    <style type="text/css">
+      body[ng-cloak] {
+        display:none;
+      }
+     /* body {
+          background-color: #FEEBC8;
+      }
+      div[flex="30"] {
+        background-color: #DFDFDF;  
+      }
+*//*
+      section[flex="40"] {
+        background-color: #D4E5FA;
+      }
+      section[flex="70"] {
+        background-color: #E8FCD6;
+      }
+      section[flex="20"] {
+       background-color: #FFD5E3;
+      }
+      section[flex=""] {
+       background-color: rgba(0, 128, 0, 0.35);
+      }*/
+
+
+      /* Important to set height for column layout */
+      .boxWithHeight {
+        box-sizing: border-box;
+        height: 100%;
+      }
+
+      .a, section {
+        border: 5px solid rgba(85, 97, 85, 0.27);
+      }
+
+     
+    </style>
+  </head>
+  <body layout="row" layout-fill ng-app="starterApp" class="icondemoFontIconsWithLigatures" ng-cloak>
+    
+    
+    <md-sidenav flex md-component-id="left" class="md-sidenav-left" md-is-locked-open="$mdMedia('gt-md')" md-whiteframe="4">
+      <md-toolbar class="md-toolbar md-accent md-toolbar-tall" layout="row">
+        <md-button class="menu" hide-gt-sm ng-click="ul.toggleList()" >
+          <md-icon md-svg-icon="menu"></md-icon>
+        </md-button>
+        <!-- <h1 class="md-title">stl.cool</h1> -->
+      </md-toolbar>
+      <md-content>
+        <md-list>
+          <md-list-item>
+            <span>Single Row Item</span>
+            <md-button class="md-secondary">
+              Secondary Button
+            </md-button>
+          </md-list-item>
+         <md-list-item>
+           <span>Single Row Item</span>
+           <md-button class="md-secondary">
+             Secondary Button
+           </md-button>
+         </md-list-item>
+         <md-list-item>
+           <span>Single Row Item</span>
+           <md-button class="md-secondary">
+             Secondary Button
+           </md-button>
+         </md-list-item>
+        </md-list>  
+      </md-content>
+    </md-sidenav>
+
+    <div flex layout="column" class="boxWithHeight">
+      
+
+      <md-toolbar class="md-toolbar md-secondary md-toolbar-tall" layout="row">
+        <md-button class="menu" hide-gt-sm ng-click="ul.toggleList()" >
+          <md-icon md-svg-icon="menu"></md-icon>
+        </md-button>
+
+       <!--  <h1 class="md-title">stl.cool</h1> -->
+      </md-toolbar>
+      
+     
+      <md-content layout-gt-xs="column"  flex="70">
+      
+          
+          <md-whiteframe class="md-whiteframe-z2" layout layout-align="space-between">            
+            <img src="https://material.angularjs.org/latest/img/washedout.png" class="md-card-image" alt="Washed Out">  
+            <p class="md-body-2 md-padding">
+
+              The titles of Washed Out's breakthrough song and the first single from Paracosm share the two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+            </p>
+            <md-button flex="30" class="md-accent">
+              <strong>BOOK NOW</strong>
+            </md-button>
+          </md-whiteframe>
+         
+        
+          
+      </md-content>
+      <section flex="20">
+       
+      </section>
+
+      <section flex >flex </section>
+
+    </div>
+    
+      
+    <!-- AngularJS Material Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-aria.min.js"></script>
+
+
+    <!-- AngularJS Material Javascript now available via Google CDN; version 1.1.4 used here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.4/angular-material.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script type="text/javascript">
+
+      angular
+        .module('starterApp', ['ngMaterial', 'users', 'firebase'])
+        .config(function($mdThemingProvider, $mdIconProvider){
+
+          $mdIconProvider
+              .defaultIconSet("./assets/svg/avatars.svg", 128)
+              .icon("menu"       , "./assets/svg/menu.svg"        , 24)
+              .icon("share"      , "./assets/svg/share.svg"       , 24)
+              .icon("google_plus", "./assets/svg/google_plus.svg" , 512)
+              .icon("hangouts"   , "./assets/svg/hangouts.svg"    , 512)
+              .icon("twitter"    , "./assets/svg/twitter.svg"     , 512)
+              .icon("phone"      , "./assets/svg/phone.svg"       , 512);
+
+              $mdThemingProvider.theme('default').dark()
+                  .primaryPalette('indigo')
+                  .accentPalette('red');
+
+        });
+
+    </script>
+
+    <script>
+      // Initialize the Firebase SDK
+      var config = {
+        apiKey: "AIzaSyCQfUZeV5yR1bygwZuIqCys37BmChoMitI",
+        authDomain: "stl-cool.firebaseapp.com",
+        databaseURL: "https://stl-cool.firebaseio.com",
+        projectId: "stl-cool",
+        storageBucket: "stl-cool.appspot.com"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="./src/users/Users.js"></script>
+    <script src="./src/users/UserController.js"></script>
+    <script src="./src/users/UserService.js"></script>
+    <!-- build:js scripts/main.min.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-XXXXX-X', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- Built with love using Web Starter Kit -->
+  </body>
+</html>
